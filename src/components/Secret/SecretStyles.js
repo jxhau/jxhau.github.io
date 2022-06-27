@@ -52,7 +52,7 @@ background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66)
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 padding-top: 24px;
-border-top: 1px solid grey;
+border-top: 1px solid #80808036;
 
 `;
 
