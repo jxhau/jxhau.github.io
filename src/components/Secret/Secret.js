@@ -15,7 +15,7 @@ const Secret = () => (
         <SecretIntro id="intro" style={{paddingBottom: '32px'}}>
             <SecretIntroTitle>👇Here is something to cheer you up</SecretIntroTitle>
             <Media />
-            <SecretIntroTitle>and before you left, I want to tell</SecretIntroTitle>
+            <SecretIntroTitle>and before you leave, I want to tell</SecretIntroTitle>
             <Section row>
                 <div style={{display: 'flex', alignItems: 'center', width: 'fit-content'}}>
                     <Smith src="./images/smith.png" />
