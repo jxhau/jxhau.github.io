@@ -1,6 +1,7 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiAndroid } from 'react-icons/di';
 import { SiAdobe } from 'react-icons/si';
+import { FaLanguage } from 'react-icons/fa';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -22,8 +23,8 @@ const stack = [
     tech: 'Adobe Photoshop (PS), Adobe Premiere Pro (PR), JianYing, Canva'
   },
   {
-    title: 'Other Skills',
-    tech: 'C++, Financial Accouting'
+    title: 'Language',
+    tech: 'English, Chinese, Bahasa Melayu, Japanese'
   }
 
 ]
@@ -32,8 +33,8 @@ const Technologies = () =>  (
   <Section id='tech'>
     <SectionDivider />
     <br />
-    <SectionTitle>Technologies</SectionTitle>
-    <SectionText>I've worked with a range of Technologies in the web development world. From Backend to Design</SectionText>
+    <SectionTitle>Skills</SectionTitle>
+    <SectionText>I've worked with a range of Technologies in the web and mobile development world. I have multimedia creation and several languages skills as well.</SectionText>
     <List>
       <ListItem>
         <DiReact size="3rem" />
@@ -61,6 +62,13 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>{stack[3].title}</ListTitle>
           <ListParagraph>{stack[3].tech}</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <FaLanguage size="3rem" />
+        <ListContainer>
+          <ListTitle>{stack[4].title}</ListTitle>
+          <ListParagraph>{stack[4].tech}</ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
