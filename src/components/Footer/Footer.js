@@ -2,7 +2,7 @@ import React from 'react';
 import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin, AiFillMail } from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { CompanyContainer, Copyright, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
 const Footer = () => {
   return (
@@ -16,6 +16,7 @@ const Footer = () => {
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>Connect me for further discussion.</Slogan>
+          <Copyright>&copy; 2022 JX Hau</Copyright>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href='https://github.com/jxhau'>
