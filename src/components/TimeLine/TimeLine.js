@@ -44,6 +44,7 @@ const Timeline = () => {
 
   return (
     <Section id='about'>
+      <SectionDivider divider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         I'm currently pursuing my IT degree at Multimedia University, Melaka, Malaysia.

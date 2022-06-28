@@ -31,7 +31,7 @@ const stack = [
 
 const Technologies = () =>  (
   <Section id='tech'>
-    <SectionDivider />
+    <SectionDivider divider />
     <br />
     <SectionTitle>Skills</SectionTitle>
     <SectionText>I've worked with a range of Technologies in the web and mobile development world. I have multimedia creation and several languages skills as well.</SectionText>

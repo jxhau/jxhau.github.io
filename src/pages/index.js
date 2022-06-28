@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <Layout>
       <head>
-        <title>JX Hau</title>
+        <title>JX Hau | Webfolio</title>
       </head>
       <Section grid>
         <Hero />
