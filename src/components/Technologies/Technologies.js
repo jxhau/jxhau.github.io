@@ -8,18 +8,18 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const stack = [
   {
     title: 'Front-End',
-    tech: 'HTML, CSS, JavaScript, Tailwind, BootStrap, jQuery, React'
+    tech: 'HTML, CSS, JavaScript, jQuery, React, Tailwind, BootStrap, Materialize'
   },
   {
     title: 'Back-End',
-    tech: 'PHP, Laravel, Django, MySQL'
+    tech: 'PHP, Laravel, MySQL'
   },
   {
     title: 'Mobile Development',
     tech: 'Java, Android, Huawei Mobile Services (HMS)'
   },
   {
-    title: 'Content Creation',
+    title: 'Multimedia Creation',
     tech: 'Adobe Photoshop (PS), Adobe Premiere Pro (PR), JianYing, Canva'
   },
   {
