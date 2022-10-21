@@ -13,7 +13,7 @@ const Hero = (props) => (
         I'm JX Hau
       </SectionTitle>
       <SectionText>
-        An IT student at Multimedia University, Malaysia. I have great passion for technologies.
+        Final year IT student at Multimedia University, Malaysia. I have great passion for technologies.
       </SectionText>
       <Button onClick={() => window.location="#about"}>Learn more</Button>
     </LeftSection>
